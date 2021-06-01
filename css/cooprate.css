@@ -333,6 +333,7 @@ position: sticky;top: 0;
   .dt_footer{
     font-size: 1rem;
   }
+}
   @media (max-width: 767px) {
     .dt_footer {
       font-size: 12px;
@@ -419,5 +420,3 @@ position: sticky;top: 0;
     font-size: 0.9rem;
   }
 }
-
-/*# sourceMappingURL=cooprate.css.map */

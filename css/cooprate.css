@@ -420,3 +420,7 @@ position: sticky;top: 0;
     font-size: 0.9rem;
   }
 }
+
+.form_sign {
+  min-height: 100vh;
+}

@@ -40,10 +40,9 @@ body {
   background-color: var(--secondColor);
   overflow-x: hidden;
 }
-html{
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 2.5rem;
-
 }
 
 ::-webkit-scrollbar {
@@ -70,10 +69,9 @@ html{
   /* background: var(--firstColor); */
 }
 
-@media (max-width: 767px){
-
-  .side_mobile{
-    width: 200px ;
+@media (max-width: 767px) {
+  .side_mobile {
+    width: 200px;
     /* background: red !important; */
   }
 }
@@ -300,7 +298,7 @@ position: sticky;top: 0;
   text-align: center;
   min-width: 100%;
 }
-.range_width{
+.range_width {
   min-width: 100%;
 }
 .global_title {
@@ -330,34 +328,36 @@ position: sticky;top: 0;
     font-size: 18px !important;
   }
 
-  .dt_footer{
+  .dt_footer {
     font-size: 1rem;
   }
 }
-  @media (max-width: 767px) {
-    .dt_footer {
-      font-size: 12px;
-    }
+@media (max-width: 767px) {
+  .dt_footer {
+    font-size: 12px;
   }
+}
 
-  .other_link_footer{
-    font-size: 1rem;
+.other_link_footer {
+  font-size: 1rem;
+}
+@media (max-width: 767px) {
+  .other_link_footer {
+    font-size: 18px !important;
   }
-  @media (max-width: 767px) {
-    .other_link_footer{
-      font-size: 18px !important;
-    }
-  }
+}
 @media (max-width: 1280px) {
   .nav_logo {
     margin-left: 15px;
     font-size: 18px !important;
   }
+}
 @media (max-width: 767px) {
   .nav_logo {
     margin-left: 0px;
     font-size: 15px !important;
   }
+}
 @media (max-width: 767px) {
   .nav_logo {
     margin-left: 0px;
